@@ -1,4 +1,13 @@
-#!/bin/sh
+#!/bin/bash
+
+# 1. Activate the virtual environment (adjust paths if venv is in a subdirectory)
+if [ -f "venv/bin/activate" ]; then
+    source venv/bin/activate
+elif [ -f "recipes/venv/bin/activate" ]; then
+    source recipes/venv/bin/activate
+else
+    echo "⚠️ Warning: Could not find venv. Falling back to system Python."
+fi
 
 echo "🔍 Running local recipe data validation..."
 python3 .github/scripts/validate_recipes.py
@@ -8,7 +17,8 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "🔍 Running Markdown linter..."
-pymarkdown scan recipes/
+# 2. This ensures it uses the correctly updated package from your venv
+pymarkdown scan "recipes/**/*md"
 if [ $? -ne 0 ]; then
     echo "🛑 Commit rejected: Markdown linting failed. Please fix style issues."
     exit 1
