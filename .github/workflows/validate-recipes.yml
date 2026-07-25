@@ -30,7 +30,7 @@ jobs:
         run: python .github/scripts/validate_recipes.py
 
       - name: Run Markdown Linter
-        run: pymarkdown scan recipes/
+        run: pymarkdown scan "recipes/**/*md"
 
       - name: Validate PR Title (Conventional Commits)
         if: github.event_name == 'pull_request'
