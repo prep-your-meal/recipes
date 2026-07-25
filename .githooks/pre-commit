@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "🔍 Running local recipe data validation..."
+python3 .github/scripts/validate_recipes.py
+if [ $? -ne 0 ]; then
+    echo "🛑 Commit rejected: Recipe data validation failed."
+    exit 1
+fi
+
+echo "🔍 Running Markdown linter..."
+pymarkdown scan recipes/
+if [ $? -ne 0 ]; then
+    echo "🛑 Commit rejected: Markdown linting failed. Please fix style issues."
+    exit 1
+fi
+
+echo "✨ All local checks passed!"
+exit 0

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+
+# Regex für Conventional Commits (z.B. feat(recipe): add curry)
+# Erlaubte Typen: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+REGEX="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?!?: .+$"
+
+if ! echo "$COMMIT_MSG" | grep -qE "$REGEX"; then
+    echo "🛑 Error: Commit message does not follow Conventional Commits!"
+    echo "Format required: type(scope): description"
+    echo "Example: feat(recipe): add red thai curry"
+    echo "Allowed types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert"
+    exit 1
+fi
+
+exit 0
