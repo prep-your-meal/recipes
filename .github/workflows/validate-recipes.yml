@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
@@ -30,7 +30,7 @@ jobs:
         run: python .github/scripts/validate_recipes.py
 
       - name: Run Markdown Linter
-        run: pymarkdown scan recipes/
+        run: pymarkdown scan "recipes/**/*md"
 
       - name: Validate PR Title (Conventional Commits)
         if: github.event_name == 'pull_request'
