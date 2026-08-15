@@ -206,6 +206,9 @@ git checkout -b feat/add-spaghetti-bolognese
 Run the extraction script to update `ingredients.yaml`:
 
 ```bash
+# Make sure your virtual environment is active!
+source venv/bin/activate
+
 python .github/scripts/extract_ingredients.py
 
 ```
@@ -213,9 +216,6 @@ python .github/scripts/extract_ingredients.py
 ### 4. **Commit your changes** following the **Conventional Commits** specification
 
 ```bash
-# Make sure your virtual environment is active!
-source venv/bin/activate
-
 git add recipes/ ingredients.yaml
 git commit -m "feat(recipe): add spaghetti bolognese in german and english"
 
