@@ -18,19 +18,15 @@ ingredients:
   - name: "Chicken breast"
     amount: 400
     unit: "g"
-    category: "Meat"
   - name: "Coconut milk"
     amount: 400
     unit: "ml"
-    category: "Canned Goods"
   - name: "Red curry paste"
     amount: 2
     unit: "tbsp"
-    category: "Asian"
   - name: "Bell pepper"
     amount: 1
     unit: "pc"
-    category: "Vegetables"
 ---
 
 ## Preparation

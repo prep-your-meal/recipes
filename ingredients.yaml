@@ -1,0 +1,20 @@
+bell_pepper:
+  category: Vegetables
+  de: Paprika
+  en: Bell pepper
+  unit: pc
+chicken_breast:
+  category: Meat
+  de: Hähnchenbrust
+  en: Chicken breast
+  unit: g
+coconut_milk:
+  category: Canned Goods
+  de: Kokosmilch
+  en: Coconut milk
+  unit: ml
+red_curry_paste:
+  category: Asian
+  de: Rote Currypaste
+  en: Red curry paste
+  unit: tbsp

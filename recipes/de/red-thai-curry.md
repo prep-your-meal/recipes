@@ -18,19 +18,15 @@ ingredients:
   - name: "Hähnchenbrust"
     amount: 400
     unit: "g"
-    category: "Fleisch"
   - name: "Kokosmilch"
     amount: 400
     unit: "ml"
-    category: "Konserven"
   - name: "Rote Currypaste"
     amount: 2
     unit: "EL"
-    category: "Asiatisch"
   - name: "Paprika"
     amount: 1
     unit: "Stk"
-    category: "Gemüse"
 ---
 
 ## Zubereitung
