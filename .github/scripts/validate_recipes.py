@@ -5,28 +5,40 @@ from PIL import Image
 
 RECIPES_DIR = "recipes"
 INGREDIENTS_REGISTRY_FILE = "ingredients.yaml"
+CATEGORIES_SCHEMA_FILE = "categories.yaml"
 
-REQUIRED_FIELDS = ["slug", "title", "prep_time", "cook_time", "default_portions", "categories", "nutrition_per_portion", "image"]
+REQUIRED_FIELDS = ["title", "prep_time", "cook_time", "default_portions", "categories", "nutrition_per_portion", "image"]
 REQUIRED_NUTRITION = ["calories", "protein_g", "carbs_g", "fat_g"]
 
-ALLOWED_CATEGORIES = {
-    # Meal Types
-    "breakfast", "lunch", "dinner", "snack",
-    # Diets
-    "vegan", "vegetarian", "keto", "low-carb", "gluten-free", "dairy-free",
-    # Fitness Goals / Profiles
-    "high-protein", "bulking", "cutting", "balanced",
-    # Logistics
-    "meal-prep-friendly", "quick", "one-pot"
-}
-
-# Image constraints
 MAX_FILE_SIZE_KB = 150
 MAX_WIDTH = 1200
 MAX_HEIGHT = 1200
 
+def get_allowed_categories():
+    """Fetches allowed categories statically from the local schema file (Schema Contract)."""
+    if not os.path.exists(CATEGORIES_SCHEMA_FILE):
+        print(f"❌ Error: Missing categories schema file '{CATEGORIES_SCHEMA_FILE}'.")
+        sys.exit(1)
+        
+    categories = set()
+    try:
+        with open(CATEGORIES_SCHEMA_FILE, "r", encoding="utf-8") as f:
+            schema = yaml.safe_load(f) or {}
+            for group, items_list in schema.items():
+                if isinstance(items_list, list):
+                    categories.update(items_list)
+        print(f"✅ Successfully loaded {len(categories)} categories from '{CATEGORIES_SCHEMA_FILE}'.")
+    except Exception as e:
+        print(f"❌ Error reading '{CATEGORIES_SCHEMA_FILE}': {e}")
+        sys.exit(1)
+        
+    return categories
+
 def validate_recipes():
     errors_found = False
+    
+    # Fetch allowed categories from local schema
+    allowed_categories = get_allowed_categories()
     
     # 1. Load the Master Ingredients Registry
     valid_ingredients_de = set()
@@ -71,7 +83,7 @@ def validate_recipes():
         print(f"🛑 Error: Recipe 'recipes/en/{f}' has no German counterpart in 'recipes/de/'")
         errors_found = True
 
-    # 4. --- NEW: Check for identical ingredient counts in paired files ---
+    # 4. Check for identical ingredient counts in paired files
     paired_files = de_files.intersection(en_files)
     for f in paired_files:
         de_path = os.path.join(de_dir, f)
@@ -88,14 +100,12 @@ def validate_recipes():
                     print(f"🛑 Error: Ingredient count mismatch in '{f}'! DE has {de_count}, EN has {en_count}. They must match exactly for the extraction script to work.")
                     errors_found = True
         except Exception:
-            # If a file fails to parse here, it will be caught and reported in detail in step 5
             pass
 
     # 5. Validate individual markdown files
     for lang in ["de", "en"]:
         lang_dir = os.path.join(RECIPES_DIR, lang)
         
-        # Select the correct valid ingredients list for the current language
         valid_names_for_lang = valid_ingredients_de if lang == "de" else valid_ingredients_en
         
         for file in os.listdir(lang_dir):
@@ -126,13 +136,12 @@ def validate_recipes():
                     errors_found = True
                     continue
 
-                # Check required top-level fields
                 for field in REQUIRED_FIELDS:
                     if field not in data:
                         print(f"  🛑 Error: Missing required field '{field}' in {filepath}")
                         errors_found = True
 
-                # Validate image (Real format, dimensions, and file size)
+                # Validate image
                 image_path = data.get("image")
                 if image_path:
                     if not os.path.exists(image_path):
@@ -161,15 +170,15 @@ def validate_recipes():
                             print(f"  🛑 Error: Could not read image file '{image_path}': {img_err}")
                             errors_found = True
 
-                # Validate categories against whitelist
+                # CATEGORY SCHEMA VALIDATION
                 categories = data.get("categories", [])
                 if not isinstance(categories, list) or len(categories) == 0:
                     print(f"  🛑 Error: 'categories' must be a non-empty list in {filepath}")
                     errors_found = True
                 else:
                     for cat in categories:
-                        if cat not in ALLOWED_CATEGORIES:
-                            print(f"  🛑 Error: Invalid recipe category '{cat}' in {filepath}. Allowed: {sorted(list(ALLOWED_CATEGORIES))}")
+                        if cat not in allowed_categories:
+                            print(f"  🛑 Error: Invalid recipe category '{cat}' in {filepath}. Check 'categories.yaml' for allowed values.")
                             errors_found = True
 
                 # Validate nutrition structure
@@ -183,7 +192,7 @@ def validate_recipes():
                             print(f"  🛑 Error: Missing nutrition field '{nut_field}' in {filepath}")
                             errors_found = True
 
-                # Validate ingredients structure against Master Registry
+                # Validate ingredients structure
                 ingredients = data.get("ingredients", [])
                 if not isinstance(ingredients, list) or len(ingredients) == 0:
                     print(f"  🛑 Error: 'ingredients' must be a non-empty list in {filepath}")
@@ -195,7 +204,6 @@ def validate_recipes():
                                 print(f"  🛑 Error: Ingredient #{idx+1} is missing required key '{req_key}' in {filepath}")
                                 errors_found = True
 
-                        # Check for trailing/leading whitespaces (crucial for slug generation)
                         ing_name_raw = ing.get("name", "")
                         ing_name_stripped = ing_name_raw.strip()
                         
@@ -203,7 +211,6 @@ def validate_recipes():
                             print(f"  🛑 Error: Ingredient #{idx+1} '{ing_name_raw}' in {filepath} has leading or trailing spaces.")
                             errors_found = True
 
-                        # Verify ingredient name against the registry
                         if ing_name_stripped and ing_name_stripped not in valid_names_for_lang:
                             print(f"  🛑 Error: Ingredient '{ing_name_stripped}' in {filepath} is not defined in '{INGREDIENTS_REGISTRY_FILE}'. Please run the extraction script or add it manually.")
                             errors_found = True
@@ -219,7 +226,7 @@ def validate_recipes():
         print("\n❌ Validation failed! Please fix the errors above.")
         sys.exit(1)
     else:
-        print("\n✨ All recipes and ingredients are valid!")
+        print("\n✨ All recipes, categories and ingredients are valid!")
         sys.exit(0)
 
 if __name__ == "__main__":

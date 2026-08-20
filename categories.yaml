@@ -1,0 +1,30 @@
+meal_types:
+  - breakfast
+  - lunch
+  - dinner
+  - snack
+diets:
+  - vegan
+  - vegetarian
+  - keto
+  - low-carb
+  - gluten-free
+  - dairy-free
+  - pescatarian
+fitness_profiles:
+  - high-protein
+  - bulking
+  - cutting
+  - balanced
+logistics:
+  - meal-prep-friendly
+  - quick
+  - one-pot
+  - family-friendly
+allergies:
+  - nuts
+  - soy
+  - shellfish
+  - eggs
+  - lactose
+  - gluten

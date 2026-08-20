@@ -17,6 +17,7 @@ recipes/
 └── images/
     └── thai-curry.webp  # Optimized WebP image (max ~1200px width, <150KB)
 ingredients.yaml         # The Master Registry for all ingredients
+categories.yaml          # The Schema Contract for all allowed categories
 
 ```
 
@@ -25,12 +26,12 @@ ingredients.yaml         # The Master Registry for all ingredients
 ## 📝 Recipe Format & Metadata
 
 Each recipe is written in Markdown with a mandatory **YAML Frontmatter** block.
+*Note: The `slug` is automatically generated from the filename by the backend. Do not include it in the YAML.*
 
 ### Example (`recipes/en/thai-curry.md`)
 
-```markdown
+```yaml
 ---
-slug: "red-thai-curry"
 title: "Red Thai Curry with Chicken"
 image: "recipes/images/red-thai-curry.webp"
 prep_time: 15
@@ -60,6 +61,8 @@ ingredients:
     unit: "pc"
 ---
 
+```
+
 ## Preparation
 
 1. **Preparation:** Cut the chicken breast into bite-sized pieces and slice the bell pepper
@@ -68,19 +71,13 @@ ingredients:
 4. **Simmering:** Add the bell pepper, reduce the heat, and let it simmer for about 15 minutes until the chicken is fully cooked and the sauce has thickened
 5. **Serving:** Serve hot, optionally with jasmine rice
 
-```
+### Allowed Categories (Schema Contract)
 
-### Allowed Categories (Whitelist)
+To ensure high reliability and offline capability, the allowed categories are defined in a local schema contract: the `categories.yaml` file. The validation pipeline checks against this file directly.
 
-Categories must use standardized internal keys. The frontend/backend translates them dynamically:
+If you need to introduce a new category (e.g., a new allergy or diet), you must add it to `categories.yaml` first.
 
-* **Meal Types:** `breakfast`, `lunch`, `dinner`, `snack`
-
-* **Diets:** `vegan`, `vegetarian`, `keto`, `low-carb`, `gluten-free`, `dairy-free`
-
-* **Fitness Profiles:** `high-protein`, `bulking`, `cutting`, `balanced`
-
-* **Logistics:** `meal-prep-friendly`, `quick`, `one-pot`
+*Note: During synchronization, the application backend will read this file to dynamically update its own category endpoints.*
 
 ---
 
@@ -163,7 +160,6 @@ git config core.hooksPath .githooks
 To use the automated AI image generator, you need a free Gemini API key:
 
 1. Generate your API key at [Google AI Studio](https://aistudio.google.com/).
-
 2. In the root directory of the repository, copy the example environment file:
 
 ```bash
@@ -171,7 +167,7 @@ cp .env.example .env
 
 ```
 
-1. Open the newly created `.env` file and insert your API key:
+3. Open the newly created `.env` file and insert your API key:
 
 ```env
 GEMINI_API_KEY=your_actual_api_key_here
@@ -196,9 +192,7 @@ git checkout -b feat/add-spaghetti-bolognese
 ### 2. **Add both language versions:** Create your recipe file with the **same filename** in both folders
 
 * `recipes/de/spaghetti-bolognese.md`
-
 * `recipes/en/spaghetti-bolognese.md`
-
 * `recipes/images/spaghetti-bolognese.webp` (compressed WebP, max ~1200px width)
 
 ### 3. **Extract and Sync Ingredients:**
@@ -233,12 +227,9 @@ git push origin feat/add-spaghetti-bolognese
 ### 6. **CI Checks:** Once the Pull Request is opened, GitHub Actions will automatically verify
 
 * Data integrity (YAML schema, required fields, and ingredient arrays).
-
 * Presence of both language counterparts.
-
 * Strict validation against the `ingredients.yaml` master registry.
 * Markdown style rules.
-
 * Pull Request title formatting (Conventional Commits).
 
 Once all checks turn green and your changes are reviewed, your recipe will be merged and synchronized!
@@ -256,7 +247,6 @@ To make adding images effortless and ensure they meet all technical requirements
 If you don't have a photo ready, you can automatically generate an authentic, approachable home-cooked style image using the Gemini API.
 
 1. Ensure your virtual environment is active and your `.env` file contains your `GEMINI_API_KEY`.
-
 2. Run the generator script with your dish name:
 
 ```bash
@@ -271,7 +261,6 @@ python .github/scripts/generate_image.py "Red Thai Curry with Chicken" --output 
 If you took your own photo, you can use the local image processor to automatically scale, convert, and compress it to meet all repository standards—no API key required.
 
 1. Place your source image (JPG, PNG, etc.) anywhere on your machine.
-
 2. Run the processor script pointing to your image and target filename:
 
 ```bash
