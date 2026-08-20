@@ -1,5 +1,4 @@
 ---
-slug: "red-thai-curry"
 title: "Red Thai Curry with Chicken"
 image: "recipes/images/red-thai-curry.webp"
 prep_time: 15

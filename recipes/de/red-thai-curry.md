@@ -1,5 +1,4 @@
 ---
-slug: "rotes-thai-curry"
 title: "Rotes Thai-Curry mit Hähnchen"
 image: "recipes/images/red-thai-curry.webp"
 prep_time: 15
