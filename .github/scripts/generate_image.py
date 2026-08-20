@@ -5,13 +5,9 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 
-# Import the local processor module
 from image_processor import process_and_save_image
 
-# Load environment variables
 load_dotenv()
-
-# Initialize the Gemini client
 client = genai.Client()
 
 def generate_recipe_image(dish_name: str) -> BytesIO:
@@ -56,14 +52,10 @@ def generate_recipe_image(dish_name: str) -> BytesIO:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate an optimized WebP recipe image using Gemini AI.")
     parser.add_argument("dish", type=str, help="The name or description of the dish (e.g., 'Red Thai Curry')")
-    parser.add_argument("--output", type=str, default=None, help="Optional filename for the WebP file (slugified dish name if omitted)")
+    parser.add_argument("--bundle", type=str, default=None, help="Optional bundle folder name (slugified dish name if omitted)")
 
     args = parser.parse_args()
+    bundle_name = args.bundle if args.bundle else args.dish.lower().replace(" ", "-").replace("/", "-")
 
-    filename = args.output if args.output else args.dish.lower().replace(" ", "-").replace("/", "-")
-
-    # Step 1: Generate raw image stream from API
     raw_image_data = generate_recipe_image(dish_name=args.dish)
-
-    # Step 2: Process and save using the universal processor
-    process_and_save_image(image_input=raw_image_data, output_filename=filename)
+    process_and_save_image(image_input=raw_image_data, bundle_name=bundle_name)

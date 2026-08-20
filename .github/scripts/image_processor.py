@@ -4,11 +4,10 @@ import argparse
 from io import BytesIO
 from PIL import Image
 
-def process_and_save_image(image_input, output_filename: str):
-    print(f"⚙️ Processing and optimizing image for: '{output_filename}'...")
+def process_and_save_image(image_input, bundle_name: str):
+    print(f"⚙️ Processing and optimizing image for bundle: '{bundle_name}'...")
 
     try:
-        # Handle both local file paths (str) and in-memory byte streams (BytesIO)
         if isinstance(image_input, str):
             if not os.path.exists(image_input):
                 print(f"🛑 Error: Input image file not found at '{image_input}'.")
@@ -20,14 +19,13 @@ def process_and_save_image(image_input, output_filename: str):
             raise TypeError("Invalid image input type. Must be a file path string or a BytesIO stream.")
 
         with img:
-            # Enforce technical specs: Max 1200x1200px
             img.thumbnail((1200, 1200))
 
-            # Ensure target directory exists in the repository
-            os.makedirs("recipes/images", exist_ok=True)
-            output_path = os.path.join("recipes/images", f"{output_filename}.webp")
+            # Ensure bundle directory exists
+            bundle_dir = os.path.join("recipes", bundle_name)
+            os.makedirs(bundle_dir, exist_ok=True)
+            output_path = os.path.join(bundle_dir, "image.webp")
 
-            # Iteratively compress until file size is <= 150 KB
             quality = 85
             while quality > 10:
                 img.save(output_path, "WEBP", quality=quality)
@@ -43,9 +41,9 @@ def process_and_save_image(image_input, output_filename: str):
         sys.exit(1)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process and optimize any local image into a repository-compliant WebP recipe image.")
-    parser.add_argument("input", type=str, help="Path to the local source image (e.g., 'my_photo.jpg')")
-    parser.add_argument("--output", type=str, required=True, help="Target filename for the WebP file (without extension)")
+    parser = argparse.ArgumentParser(description="Process and optimize an image into a recipe bundle.")
+    parser.add_argument("input", type=str, help="Path to the local source image")
+    parser.add_argument("--bundle", type=str, required=True, help="Target bundle folder name (e.g., 'red-thai-curry')")
 
     args = parser.parse_args()
-    process_and_save_image(image_input=args.input, output_filename=args.output)
+    process_and_save_image(image_input=args.input, bundle_name=args.bundle)

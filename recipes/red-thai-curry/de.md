@@ -1,31 +1,7 @@
 ---
+
 title: "Rotes Thai-Curry mit Hähnchen"
-image: "recipes/images/red-thai-curry.webp"
-prep_time: 15
-cook_time: 20
-default_portions: 2
-categories:
-  - "dinner"
-  - "high-protein"
-  - "meal-prep-friendly"
-nutrition_per_portion:
-  calories: 520
-  protein_g: 44
-  carbs_g: 18
-  fat_g: 28
-ingredients:
-  - name: "Hähnchenbrust"
-    amount: 400
-    unit: "g"
-  - name: "Kokosmilch"
-    amount: 400
-    unit: "ml"
-  - name: "Rote Currypaste"
-    amount: 2
-    unit: "tbsp"
-  - name: "Paprika"
-    amount: 1
-    unit: "pc"
+
 ---
 
 ## Zubereitung

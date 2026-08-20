@@ -1,31 +1,7 @@
 ---
+
 title: "Red Thai Curry with Chicken"
-image: "recipes/images/red-thai-curry.webp"
-prep_time: 15
-cook_time: 20
-default_portions: 2
-categories:
-  - "dinner"
-  - "high-protein"
-  - "meal-prep-friendly"
-nutrition_per_portion:
-  calories: 520
-  protein_g: 44
-  carbs_g: 18
-  fat_g: 28
-ingredients:
-  - name: "Chicken breast"
-    amount: 400
-    unit: "g"
-  - name: "Coconut milk"
-    amount: 400
-    unit: "ml"
-  - name: "Red curry paste"
-    amount: 2
-    unit: "tbsp"
-  - name: "Bell pepper"
-    amount: 1
-    unit: "pc"
+
 ---
 
 ## Preparation
