@@ -22,10 +22,10 @@ ingredients:
     unit: "ml"
   - name: "Rote Currypaste"
     amount: 2
-    unit: "EL"
+    unit: "tbsp"
   - name: "Paprika"
     amount: 1
-    unit: "Stk"
+    unit: "pc"
 ---
 
 ## Zubereitung

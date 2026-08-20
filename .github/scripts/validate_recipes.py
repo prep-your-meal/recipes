@@ -40,9 +40,9 @@ def validate_recipes():
     # Fetch allowed categories from local schema
     allowed_categories = get_allowed_categories()
     
-    # 1. Load the Master Ingredients Registry
-    valid_ingredients_de = set()
-    valid_ingredients_en = set()
+    # 1. Load the Master Ingredients Registry (now storing units as well)
+    valid_ingredients_de = {}
+    valid_ingredients_en = {}
     
     if not os.path.exists(INGREDIENTS_REGISTRY_FILE):
         print(f"❌ Error: Missing master registry file '{INGREDIENTS_REGISTRY_FILE}'.")
@@ -52,10 +52,11 @@ def validate_recipes():
         with open(INGREDIENTS_REGISTRY_FILE, "r", encoding="utf-8") as f:
             registry = yaml.safe_load(f) or {}
             for key, data in registry.items():
+                master_unit = data.get("unit", "")
                 if "de" in data and data["de"]:
-                    valid_ingredients_de.add(data["de"])
+                    valid_ingredients_de[data["de"]] = master_unit
                 if "en" in data and data["en"]:
-                    valid_ingredients_en.add(data["en"])
+                    valid_ingredients_en[data["en"]] = master_unit
     except Exception as e:
         print(f"❌ Error reading '{INGREDIENTS_REGISTRY_FILE}': {e}")
         sys.exit(1)
@@ -214,6 +215,14 @@ def validate_recipes():
                         if ing_name_stripped and ing_name_stripped not in valid_names_for_lang:
                             print(f"  🛑 Error: Ingredient '{ing_name_stripped}' in {filepath} is not defined in '{INGREDIENTS_REGISTRY_FILE}'. Please run the extraction script or add it manually.")
                             errors_found = True
+                        elif ing_name_stripped:
+                            # STRICT UNIT CHECK: Vergleiche Rezept-Einheit mit Master-Einheit
+                            recipe_unit = str(ing.get("unit", "")).strip()
+                            master_unit = valid_names_for_lang[ing_name_stripped]
+                            
+                            if recipe_unit != master_unit:
+                                print(f"  🛑 Error: Unit mismatch for '{ing_name_stripped}' in {filepath}. Recipe uses '{recipe_unit}', but Master Registry requires '{master_unit}'.")
+                                errors_found = True
 
             except yaml.YAMLError as e:
                 print(f"  🛑 YAML Parsing Error in {filepath}: {e}")

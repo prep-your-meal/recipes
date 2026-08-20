@@ -89,6 +89,7 @@ To ensure automated shopping lists work perfectly and identical items are aggreg
 
 1. You must **always use the singular form** in your recipes (e.g., `Tomato` instead of `Tomatoes`).
 2. Every ingredient you use in a Markdown recipe *must* be defined in the `ingredients.yaml` file.
+3. **Use System Units in YAML:** The YAML frontmatter must ALWAYS use the universal system units (`tbsp`, `tsp`, `pc`, `g`, `ml`, etc.) defined in the Master Registry, regardless of the recipe's language. Do not use localized units like `EL` or `Stk` in the YAML block. Translating units is exclusively the job of the frontend UI.
 
 ### 🤖 Intelligent Plural Gatekeeper (spaCy NLP)
 
