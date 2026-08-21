@@ -23,7 +23,7 @@ def generate_recipe_image(dish_name: str) -> BytesIO:
 
     try:
         response = client.models.generate_content(
-            model='gemini-3.1-flash-image-preview',
+            model='gemini-3.1-flash-image',
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_modalities=["IMAGE"],

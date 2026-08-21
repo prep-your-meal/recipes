@@ -1,0 +1,30 @@
+prep_time: 15
+cook_time: 20
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 580
+  protein_g: 37
+  carbs_g: 89
+  fat_g: 9
+ingredients:
+  - slug: rice
+    amount: 120
+  - slug: pork_tenderloin
+    amount: 250
+  - slug: potato
+    amount: 275
+  - slug: carrot
+    amount: 150
+  - slug: onion
+    amount: 225
+  - slug: butter
+    amount: 8
+  - slug: water
+    amount: 700
+  - slug: curry_powder
+    amount: 10

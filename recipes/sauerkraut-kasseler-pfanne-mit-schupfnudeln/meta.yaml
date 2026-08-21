@@ -1,0 +1,39 @@
+prep_time: 15
+cook_time: 15
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 615
+  protein_g: 35
+  carbs_g: 52
+  fat_g: 30
+ingredients:
+  - slug: onion
+    amount: 80
+  - slug: red_bell_pepper
+    amount: 75
+  - slug: smoked_pork_chop
+    amount: 250
+  - slug: rapeseed_oil
+    amount: 27
+  - slug: tomato_paste
+    amount: 16
+  - slug: sauerkraut
+    amount: 200
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: water
+    amount: 50
+  - slug: schupfnudeln
+    amount: 250
+  - slug: fresh_parsley
+    amount: 5
+  - slug: sour_cream
+    amount: 100

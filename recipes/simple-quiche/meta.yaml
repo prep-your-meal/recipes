@@ -1,0 +1,33 @@
+prep_time: 20
+cook_time: 45
+default_portions: 8
+categories:
+  - lunch
+  - dinner
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 410
+  protein_g: 11
+  carbs_g: 31
+  fat_g: 25
+ingredients:
+  - slug: wheat_flour
+    amount: 250
+  - slug: margarine
+    amount: 180
+  - slug: water
+    amount: 100
+  - slug: salt
+    amount: 2
+  - slug: egg
+    amount: 3
+  - slug: cornstarch
+    amount: 50
+  - slug: diced_ham
+    amount: 125
+  - slug: oat_milk
+    amount: 180
+  - slug: vegan_cooking_cream
+    amount: 200
+  - slug: ground_nutmeg
+    amount: 1

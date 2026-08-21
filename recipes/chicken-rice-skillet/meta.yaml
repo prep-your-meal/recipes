@@ -1,0 +1,32 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 530
+  protein_g: 49
+  carbs_g: 48
+  fat_g: 18
+ingredients:
+  - slug: chicken_breast
+    amount: 600
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: spring_onion
+    amount: 80
+  - slug: olive_oil
+    amount: 14
+  - slug: vegetable_broth
+    amount: 480
+  - slug: broccoli
+    amount: 480
+  - slug: cheddar_cheese
+    amount: 113
+  - slug: brown_rice
+    amount: 200

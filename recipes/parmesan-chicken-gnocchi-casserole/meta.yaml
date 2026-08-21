@@ -1,0 +1,31 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 550
+  protein_g: 55
+  carbs_g: 38
+  fat_g: 20
+ingredients:
+  - slug: chicken_breast
+    amount: 700
+  - slug: olive_oil
+    amount: 27
+  - slug: gnocchi
+    amount: 450
+  - slug: tomato_passata
+    amount: 450
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 2
+  - slug: mozzarella
+    amount: 100
+  - slug: parmesan
+    amount: 50
+  - slug: fresh_basil
+    amount: 5

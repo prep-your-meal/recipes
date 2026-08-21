@@ -1,0 +1,37 @@
+prep_time: 10
+cook_time: 20
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 180
+  protein_g: 6
+  carbs_g: 23
+  fat_g: 8
+ingredients:
+  - slug: onion
+    amount: 80
+  - slug: zucchini
+    amount: 115
+  - slug: tomato
+    amount: 180
+  - slug: olive_oil
+    amount: 14
+  - slug: vegetable_broth
+    amount: 400
+  - slug: tomato_paste
+    amount: 8
+  - slug: paprika_powder
+    amount: 1
+  - slug: couscous
+    amount: 25
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: canned_white_beans
+    amount: 50

@@ -1,0 +1,40 @@
+prep_time: 20
+cook_time: 20
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 490
+  protein_g: 43
+  carbs_g: 56
+  fat_g: 12
+ingredients:
+  - slug: brown_rice
+    amount: 80
+  - slug: water
+    amount: 300
+  - slug: cornstarch
+    amount: 10
+  - slug: garlic_clove
+    amount: 3
+  - slug: soy_sauce
+    amount: 40
+  - slug: honey
+    amount: 20
+  - slug: ginger
+    amount: 2
+  - slug: chicken_breast
+    amount: 300
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: broccoli
+    amount: 170
+  - slug: olive_oil
+    amount: 14
+  - slug: scallion
+    amount: 20
+  - slug: sesame_seed
+    amount: 7

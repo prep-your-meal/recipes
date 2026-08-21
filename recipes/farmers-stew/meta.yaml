@@ -1,0 +1,44 @@
+prep_time: 15
+cook_time: 35
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 575
+  protein_g: 32
+  carbs_g: 38
+  fat_g: 29
+ingredients:
+  - slug: red_onion
+    amount: 80
+  - slug: garlic_clove
+    amount: 6
+  - slug: fresh_rosemary
+    amount: 3
+  - slug: fresh_thyme
+    amount: 3
+  - slug: potato
+    amount: 300
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: olive_oil
+    amount: 14
+  - slug: diced_ham
+    amount: 25
+  - slug: ground_beef
+    amount: 250
+  - slug: tomato_paste
+    amount: 16
+  - slug: dried_oregano
+    amount: 1
+  - slug: paprika_powder
+    amount: 1
+  - slug: beef_broth
+    amount: 180
+  - slug: canned_diced_tomato
+    amount: 200
+  - slug: sour_cream
+    amount: 30

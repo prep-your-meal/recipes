@@ -1,0 +1,26 @@
+prep_time: 10
+cook_time: 10
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - high-protein
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 390
+  protein_g: 32
+  carbs_g: 29
+  fat_g: 18
+ingredients:
+  - slug: broccoli
+    amount: 1000
+  - slug: shallot
+    amount: 40
+  - slug: milk
+    amount: 800
+  - slug: parmesan_cheese
+    amount: 200
+  - slug: vegetable_broth
+    amount: 200

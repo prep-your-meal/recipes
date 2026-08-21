@@ -1,0 +1,30 @@
+prep_time: 10
+cook_time: 0
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - snack
+  - vegan
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 220
+  protein_g: 6
+  carbs_g: 16
+  fat_g: 15
+ingredients:
+  - slug: cucumber
+    amount: 300
+  - slug: toasted_sesame_seed
+    amount: 10
+  - slug: garlic_clove
+    amount: 6
+  - slug: scallion
+    amount: 20
+  - slug: soy_sauce
+    amount: 30
+  - slug: chili_powder
+    amount: 4
+  - slug: sesame_oil
+    amount: 14

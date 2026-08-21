@@ -1,0 +1,44 @@
+prep_time: 15
+cook_time: 25
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 715
+  protein_g: 62
+  carbs_g: 38
+  fat_g: 34
+ingredients:
+  - slug: garlic_powder
+    amount: 4
+  - slug: italian_herbs
+    amount: 4
+  - slug: chili_flakes
+    amount: 4
+  - slug: paprika_powder
+    amount: 4
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: potato
+    amount: 400
+  - slug: olive_oil
+    amount: 27
+  - slug: onion_powder
+    amount: 2
+  - slug: chicken_breast
+    amount: 400
+  - slug: parmesan_cheese
+    amount: 20
+  - slug: cream_cheese
+    amount: 100
+  - slug: milk
+    amount: 60
+  - slug: scallion
+    amount: 20
+  - slug: mozzarella_cheese
+    amount: 40

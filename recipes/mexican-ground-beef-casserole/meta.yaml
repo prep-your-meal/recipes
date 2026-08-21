@@ -1,0 +1,41 @@
+prep_time: 15
+cook_time: 30
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 475
+  protein_g: 25
+  carbs_g: 40
+  fat_g: 22
+ingredients:
+  - slug: onion
+    amount: 80
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: olive_oil
+    amount: 14
+  - slug: ground_beef
+    amount: 250
+  - slug: canned_corn
+    amount: 160
+  - slug: rigatoni
+    amount: 150
+  - slug: strained_tomatoes
+    amount: 230
+  - slug: diced_tomatoes
+    amount: 140
+  - slug: garlic_powder
+    amount: 1
+  - slug: ground_cumin
+    amount: 1
+  - slug: paprika_powder
+    amount: 2
+  - slug: dried_oregano
+    amount: 2
+  - slug: cheddar_cheese
+    amount: 100
+  - slug: green_onion
+    amount: 20

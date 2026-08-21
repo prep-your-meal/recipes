@@ -1,0 +1,36 @@
+prep_time: 15
+cook_time: 20
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+nutrition_per_portion:
+  calories: 585
+  protein_g: 39
+  carbs_g: 62
+  fat_g: 18
+ingredients:
+  - slug: chicken_breast
+    amount: 300
+  - slug: garlic_clove
+    amount: 1
+  - slug: carrot
+    amount: 300
+  - slug: whole_grain_pasta
+    amount: 300
+  - slug: water
+    amount: 600
+  - slug: low_fat_milk
+    amount: 500
+  - slug: heavy_cream
+    amount: 100
+  - slug: mozzarella
+    amount: 125
+  - slug: curry_powder
+    amount: 6
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

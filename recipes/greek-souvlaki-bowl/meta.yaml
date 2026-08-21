@@ -1,0 +1,40 @@
+prep_time: 20
+cook_time: 30
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 520
+  protein_g: 42
+  carbs_g: 28
+  fat_g: 26
+ingredients:
+  - slug: potato
+    amount: 200
+  - slug: olive_oil
+    amount: 41
+  - slug: chicken_breast
+    amount: 300
+  - slug: lemon
+    amount: 80
+  - slug: garlic_clove
+    amount: 2
+  - slug: dried_oregano
+    amount: 2
+  - slug: greek_yogurt
+    amount: 100
+  - slug: cucumber
+    amount: 150
+  - slug: tomato
+    amount: 120
+  - slug: red_onion
+    amount: 40
+  - slug: romaine_lettuce
+    amount: 50
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1

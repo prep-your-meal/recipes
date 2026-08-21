@@ -1,0 +1,39 @@
+prep_time: 15
+cook_time: 15
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 280
+  protein_g: 33
+  carbs_g: 16
+  fat_g: 8
+ingredients:
+  - slug: button_mushroom
+    amount: 600
+  - slug: broccoli
+    amount: 600
+  - slug: garlic_clove
+    amount: 4
+  - slug: chicken_breast
+    amount: 400
+  - slug: sesame_oil
+    amount: 28
+  - slug: spring_onion
+    amount: 3
+  - slug: water
+    amount: 200
+  - slug: soy_sauce
+    amount: 50
+  - slug: honey
+    amount: 20
+  - slug: chili_powder
+    amount: 1
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

@@ -1,0 +1,39 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 475
+  protein_g: 18
+  carbs_g: 88
+  fat_g: 3
+ingredients:
+  - slug: rice
+    amount: 250
+  - slug: water
+    amount: 375
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: yellow_bell_pepper
+    amount: 300
+  - slug: canned_corn
+    amount: 285
+  - slug: canned_kidney_bean
+    amount: 720
+  - slug: canned_diced_tomato
+    amount: 820
+  - slug: garlic_clove
+    amount: 2
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: sweet_paprika_powder
+    amount: 1
+  - slug: dried_oregano
+    amount: 1

@@ -1,0 +1,31 @@
+prep_time: 10
+cook_time: 15
+default_portions: 3
+categories:
+  - lunch
+  - dinner
+  - quick
+nutrition_per_portion:
+  calories: 675
+  protein_g: 27
+  carbs_g: 78
+  fat_g: 28
+ingredients:
+  - slug: garlic
+    amount: 3
+  - slug: smoked_salmon
+    amount: 150
+  - slug: rapeseed_oil
+    amount: 14
+  - slug: creme_fraiche
+    amount: 150
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: fresh_dill
+    amount: 10
+  - slug: whole_grain_pasta
+    amount: 300
+  - slug: frozen_peas
+    amount: 150

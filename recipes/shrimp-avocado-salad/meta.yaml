@@ -1,0 +1,33 @@
+prep_time: 15
+cook_time: 0
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 315
+  protein_g: 22
+  carbs_g: 31
+  fat_g: 13
+ingredients:
+  - slug: lime
+    amount: 134
+  - slug: onion
+    amount: 80
+  - slug: tomato
+    amount: 240
+  - slug: avocado
+    amount: 440
+  - slug: black_beans
+    amount: 180
+  - slug: corn
+    amount: 250
+  - slug: shrimp
+    amount: 300
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

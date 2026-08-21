@@ -1,0 +1,28 @@
+prep_time: 10
+cook_time: 35
+default_portions: 3
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 550
+  protein_g: 22
+  carbs_g: 60
+  fat_g: 24
+ingredients:
+  - slug: cherry_tomato
+    amount: 350
+  - slug: olive_oil
+    amount: 27
+  - slug: salt_and_pepper
+    amount: 5
+  - slug: feta
+    amount: 200
+  - slug: whole_wheat_fusilli
+    amount: 200
+  - slug: garlic_clove
+    amount: 3
+  - slug: fresh_basil
+    amount: 20

@@ -10,7 +10,7 @@ else
 fi
 
 echo "🔍 Running local recipe data validation..."
-python3 .github/scripts/validate_recipes.py
+python3 scripts/validate_recipes.py
 if [ $? -ne 0 ]; then
     echo "🛑 Commit rejected: Recipe data validation failed."
     exit 1

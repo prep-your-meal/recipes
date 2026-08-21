@@ -1,0 +1,32 @@
+prep_time: 10
+cook_time: 10
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 550
+  protein_g: 22
+  carbs_g: 14
+  fat_g: 46
+ingredients:
+  - slug: cauliflower
+    amount: 800
+  - slug: heavy_cream
+    amount: 240
+  - slug: cream_cheese
+    amount: 110
+  - slug: mustard
+    amount: 10
+  - slug: garlic_powder
+    amount: 2
+  - slug: salt
+    amount: 3
+  - slug: black_pepper
+    amount: 1
+  - slug: cheddar_cheese
+    amount: 225
+  - slug: ground_turmeric
+    amount: 2

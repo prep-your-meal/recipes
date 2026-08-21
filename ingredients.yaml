@@ -1,20 +1,1120 @@
+avocado:
+  category: Fruits
+  de: Avocado
+  en: Avocado
+  unit: g
+pomegranate_seeds:
+  category: Fruits
+  de: Granatapfelkerne
+  en: Pomegranate seeds
+  unit: g
+sunflower_seeds:
+  category: Fruits
+  de: Sonnenblumenkerne
+  en: Sunflower seeds
+  unit: g
 bell_pepper:
   category: Vegetables
   de: Paprika
   en: Bell pepper
-  unit: pc
+  unit: g
+hokkaido_pumpkin:
+  category: Vegetables
+  de: Hokkaido Kürbis
+  en: Hokkaido pumpkin
+  unit: g
+breadcrumbs:
+  category: Grains
+  de: Paniermehl
+  en: Breadcrumbs
+  unit: g
+corn_tortilla:
+  category: Grains
+  de: Maistortillas
+  en: Corn tortilla
+  unit: g
+red_bell_pepper:
+  category: Vegetables
+  de: Rote Paprika
+  en: Red Bell pepper
+  unit: g
+green_bell_pepper:
+  category: Vegetables
+  de: Grüne Paprika
+  en: Green Bell pepper
+  unit: g
+yellow_bell_pepper:
+  category: Vegetables
+  de: Gelbe Paprika
+  en: Yellow Bell pepper
+  unit: g
 chicken_breast:
-  category: Meat
+  category: Meat & Poultry
   de: Hähnchenbrust
   en: Chicken breast
+  unit: g
+salami:
+  category: Meat & Poultry
+  de: Salami
+  en: Salami
+  unit: g
+bacon:
+  category: Meat & Poultry
+  de: Schinken
+  en: Bacon
+  unit: g
+smoked_pork_chop:
+  category: Meat & Poultry
+  de: Kasseler Kotelett
+  en: Smoked pork chop
+  unit: g
+canned_chickpeas:
+  category: Canned Goods
+  de: Kichererbsen, Konserve
+  en: Canned chickpeas
+  unit: g
+canned_diced_tomato:
+  category: Canned Goods
+  de: Stückige Tomaten, Konserve
+  en: Canned diced tomatoes
+  unit: g
+diced_tomatoes:
+  category: Canned Goods
+  de: Stückige Tomaten, Konserve
+  en: Canned diced tomatoes
+  unit: g
+tomato_passata:
+  category: Condiments & Sauces
+  de: Passierte Tomaten
+  en: Tomato passata
+  unit: g
+strained_tomatoes:
+  category: Condiments & Sauces
+  de: Passierte Tomaten
+  en: Tomato passata
+  unit: g
+ajvar:
+  category: Condiments & Sauces
+  de: Ajvar
+  en: Ajvar
+  unit: g
+mustard:
+  category: Condiments & Sauces
+  de: Senf
+  en: Mustard
   unit: g
 coconut_milk:
   category: Canned Goods
   de: Kokosmilch
   en: Coconut milk
   unit: ml
+canned_coconut_milk:
+  category: Canned Goods
+  de: Kokosmilch, Konserve
+  en: Canned coconut milk
+  unit: ml
+canned_kidney_bean:
+  category: Canned Goods
+  de: Kidneybohne, Konserve
+  en: Kidney bean
+  unit: g
+canned_white_beans:
+  category: Canned Goods
+  de: Weisse Bohnen, Konserve
+  en: Canned white bean
+  unit: g
+kidney_beans:
+  category: Canned Goods
+  de: Kidneybohne, Konserve
+  en: Kidney bean
+  unit: g
+black_beans:
+  category: Canned Goods
+  de: Schwarze Bohne, Konserve
+  en: Black bean
+  unit: g
+canned_black_beans:
+  category: Canned Goods
+  de: Schwarze Bohne, Konserve
+  en: Black bean
+  unit: g
+corn:
+  category: Canned Goods
+  de: Mais, Konserve
+  en: Canned corn
+  unit: g
+canned_corn:
+  category: Canned Goods
+  de: Mais, Konserve
+  en: Canned corn
+  unit: g
+canned_sweet_corn:
+  category: Canned Goods
+  de: Süßer Mais, Konserve
+  en: Canned sweet corn
+  unit: g
+canned_peas:
+  category: Canned Goods
+  de: Erbsen, Konserve
+  en: Canned peas
+  unit: g
+frozen_peas:
+  category: Frozen vegetables
+  de: Erbsen, gefroten
+  en: Frozen peas
+  unit: g
+frozen_mixed_vegetables:
+  category: Frozen vegetables
+  de: Gemüse-Mix, gefroten
+  en: Frozen mixed vegetables
+  unit: g
+frozen_broccoli:
+  category: Frozen vegetables
+  de: Brokkoli, gefroten
+  en: Frozen broccoli
+  unit: g
+green_pea:
+  category: Vegetables
+  de: Grüne Erbse
+  en: Green pea
+  unit: g
+sesame_seed:
+  category: Nuts & Seeds
+  de: Sesamsamen
+  en: Sesame seed
+  unit: g
+pine_nut:
+  category: Nuts & Seeds
+  de: Pinienkerne
+  en: Pine nut
+  unit: g
+toasted_sesame_seed:
+  category: Nuts & Seeds
+  de: Sesamsamen, geröstet
+  en: Toasted sesame seed
+  unit: g
+coconut_oil:
+  category: Fats & Oils
+  de: Kokosnussöl
+  en: Coconut oil
+  unit: ml
+olive_oil:
+  category: Fats & Oils
+  de: Olivenöl
+  en: Olive oil
+  unit: ml
+sesame_oil:
+  category: Fats & Oils
+  de: Sesamöl
+  en: Sesame oil
+  unit: ml
+rapeseed_oil:
+  category: Fats & Oils
+  de: Rapsöl
+  en: Rapeseed oil
+  unit: ml
+canola_oil:
+  category: Fats & Oils
+  de: Rapsöl
+  en: Canola oil
+  unit: ml
+egg:
+  category: Eggs
+  de: Ei
+  en: Egg
+  unit: pc
+egg_yolk:
+  category: Eggs
+  de: Eigelb
+  en: Egg yolk
+  unit: pc
 red_curry_paste:
   category: Asian
   de: Rote Currypaste
   en: Red curry paste
   unit: tbsp
+water:
+  category: Liquids
+  de: Wasser
+  en: water
+  unit: ml
+salt:
+  category: Seasoning
+  de: Salz
+  en: Salt
+  unit: tbsp
+salt_and_pepper:
+  category: Seasoning
+  de: Salz & Pfeffer
+  en: Salt & Pepper
+  unit: tbsp
+ras_el_hanout:
+  category: Seasoning
+  de: Ras el Hanout
+  en: Ras el Hanout
+  unit: tbsp
+chili_pepper:
+  category: Seasoning
+  de: Chilischote
+  en: chili pepper
+  unit: g
+apple_mango_puree:
+  category: Fruits
+  de: Apfel-Mango-Püree
+  en: Apple mango puree
+  unit: g
+apple:
+  category: Fruits
+  de: Apfel
+  en: Apple
+  unit: g
+lemon:
+  category: Fruits
+  de: Zitrone
+  en: Lemon
+  unit: g
+lime:
+  category: Fruits
+  de: Limette
+  en: Lime
+  unit: g
+shredded_cheese:
+  category: Dairy
+  de: Geriebener Käse
+  en: Shredded cheese
+  unit: g
+low_fat_shredded_cheese:
+  category: Dairy
+  de: Geriebener Käse, fettarm
+  en: Low fat shredded cheese
+  unit: g
+mozzarella:
+  category: Dairy
+  de: Mozzarella
+  en: Mozzarella cheese
+  unit: g
+mozzarella_cheese:
+  category: Dairy
+  de: Mozzarella
+  en: Mozzarella cheese
+  unit: g
+shredded_mozzarella_cheese:
+  category: Dairy
+  de: Geriebener Mozzarella Käse
+  en: Shredded mozzarella cheese
+  unit: g
+grated_mozzarella:
+  category: Dairy
+  de: Geriebener Mozzarella Käse
+  en: Shredded mozzarella cheese
+  unit: g
+shredded_cheddar_cheese:
+  category: Dairy
+  de: Geriebener Cheddar Käse
+  en: Shredded cheddar cheese
+  unit: g
+cheddar_cheese:
+  category: Dairy
+  de: Geriebener Cheddar Käse
+  en: Shredded cheddar cheese
+  unit: g
+parmesan_cheese:
+  category: Dairy
+  de: Parmesan
+  en: Parmesan cheese
+  unit: g
+parmesan:
+  category: Dairy
+  de: Parmesan
+  en: Parmesan cheese
+  unit: g
+grated_parmesan:
+  category: Dairy
+  de: Parmesan, gerieben
+  en: Grated parmesan cheese
+  unit: g
+feta:
+  category: Dairy
+  de: Feta
+  en: Feta cheese
+  unit: g
+feta_cheese:
+  category: Dairy
+  de: Feta
+  en: Feta cheese
+  unit: g
+low_fat_feta:
+  category: Dairy
+  de: Feta,fettarm
+  en: Low fat feta cheese
+  unit: g
+gruyere_cheese:
+  category: Dairy
+  de: Geriebener Mozzarella Käse
+  en: Shredded mozzarella cheese
+  unit: g
+chives:
+  category: Fresh herbs
+  de: Gruyère Hartkäse
+  en: Gruyère cheese
+  unit: g
+fresh_chives:
+  category: Fresh herbs
+  de: Frischer Schnittlauch
+  en: Fresh chives
+  unit: g
+fresh_basil:
+  category: Fresh herbs
+  de: Frischer Basilikum
+  en: Fresh basil
+  unit: g
+fresh_dill:
+  category: Fresh herbs
+  de: Frischer Dill
+  en: Fresh dill
+  unit: g
+fresh_mint:
+  category: Fresh herbs
+  de: Frische Minze
+  en: Fresh mint
+  unit: g
+fresh_thyme:
+  category: Fresh herbs
+  de: Frischer Thymian
+  en: Fresh thyme
+  unit: g
+thyme:
+  category: Fresh herbs
+  de: Frischer Thymian
+  en: Fresh thyme
+  unit: g
+fresh_coriander:
+  category: Fresh herbs
+  de: Frischer Koriander
+  en: Fresh coriander
+  unit: g
+fresh_cilantro:
+  category: Fresh herbs
+  de: Frischer Koriander
+  en: Fresh coriander
+  unit: g
+fresh_parsley:
+  category: Fresh herbs
+  de: Frische Petersilie
+  en: Fresh parsley
+  unit: g
+fresh_oregano:
+  category: Fresh herbs
+  de: Frischer Oregano
+  en: Fresh oregano
+  unit: g
+fresh_rosemary:
+  category: Fresh herbs
+  de: Frischer Rosmarin
+  en: Fresh rosemary
+  unit: g
+black_pepper:
+  category: Seasoning
+  de: Schwarzer Pfeffer
+  en: Black pepper
+  unit: tbsp
+chili_flakes:
+  category: Seasoning
+  de: Chiliflocken
+  en: Chili flakes
+  unit: g
+onion_powder:
+  category: Seasoning
+  de: Zwiebelpulver
+  en: Onion powder
+  unit: tbsp
+sweet_paprika_powder:
+  category: Seasoning
+  de: Paprikapulver, süß
+  en: Seet paprika powder
+  unit: tbsp
+garlic_powder:
+  category: Seasoning
+  de: Knoblauchpulver
+  en: Garlic powder
+  unit: tbsp
+curry_powder:
+  category: Seasoning
+  de: Currypulver
+  en: Curry powder
+  unit: tbsp
+chili_powder:
+  category: Seasoning
+  de: Chillipulver
+  en: Chilli powder
+  unit: tbsp
+paprika_powder:
+  category: Seasoning
+  de: Paprikapulver
+  en: Curry powder
+  unit: tbsp
+oregano:
+  category: Seasoning
+  de: Oregano
+  en: Oregano
+  unit: tbsp
+ground_ginger:
+  category: Seasoning
+  de: Ingwer, gemahlen
+  en: Ground ginger
+  unit: tbsp
+ground_nutmeg:
+  category: Seasoning
+  de: Muskatnuss, gemahlen
+  en: Ground nutmeg
+  unit: tbsp
+ground_cumin:
+  category: Seasoning
+  de: Kreuzkümmel, gemahlen
+  en: Ground cumin
+  unit: tbsp
+ground_turmeric:
+  category: Seasoning
+  de: Kurkuma, gemahlen
+  en: Ground turmeric
+  unit: tbsp
+italian_herbs:
+  category: Seasoning
+  de: Italienischer Kräutermix, getrocknet
+  en: Dried italian herb mix
+  unit: tbsp
+italian_herb_mix:
+  category: Seasoning
+  de: Italienischer Kräutermix, getrocknet
+  en: Dried italian herb mix
+  unit: tbsp
+dried_oregano:
+  category: Seasoning
+  de: Oregano, getrocknet
+  en: Dried oregano
+  unit: tbsp
+dried_rosemary:
+  category: Seasoning
+  de: Rosmarin, getrocknet
+  en: Dried rosemary
+  unit: tbsp
+dried_basil:
+  category: Seasoning
+  de: Basilikum, getrocknet
+  en: Dried basil
+  unit: tbsp
+brown_rice:
+  category: Grains
+  de: Brauner Reis
+  en: Brown rice
+  unit: g
+pearl_couscous:
+  category: Grains
+  de: Perlen-Couscous
+  en: Pearl couscous
+  unit: g
+couscous:
+  category: Grains
+  de: Couscous
+  en: Couscous
+  unit: g
+red_lentil:
+  category: Grains
+  de: Rote Linsen
+  en: Red lentil
+  unit: g
+yellow_lentil:
+  category: Grains
+  de: Gelbe Linsen
+  en: Yellow lentil
+  unit: g
+mie_noodle:
+  category: Grains
+  de: Mie-Nudel
+  en: Mie noodle
+  unit: g
+vegetarian_maultasche:
+  category: Grains
+  de: Vegetarische maultasche
+  en: Vegetarian maultasche
+  unit: g
+macaroni:
+  category: Grains
+  de: Makkaroni
+  en: Macaroni
+  unit: g
+whole_wheat_fusilli:
+  category: Grains
+  de: Vollkorn-Fusilli
+  en: Whole wheat fusilli pasta
+  unit: g
+fusilli:
+  category: Grains
+  de: Fusilli
+  en: Fusilli pasta
+  unit: g
+fusilli_pasta:
+  category: Grains
+  de: Fusilli
+  en: Fusilli pasta
+  unit: g
+tagliatelle:
+  category: Grains
+  de: Tagliatelle
+  en: Tagliatelle
+  unit: g
+lasagna_sheets:
+  category: Grains
+  de: Lasagneplatten
+  en: Lasagna sheets
+  unit: g
+rigatoni:
+  category: Grains
+  de: Rigatoni
+  en: Rigatoni pasta
+  unit: g
+spinach_ricotta_tortellini:
+  category: Grains
+  de: Spinat-Ricotta-Tortellini
+  en: Spinach ricotta tortellini
+  unit: g
+orzo:
+  category: Grains
+  de: Orzonudeln
+  en: Orzo noodle
+  unit: g
+schupfnudeln:
+  category: Grains
+  de: Schupfnudeln
+  en: Schupfnudeln
+  unit: g
+brown_lentil:
+  category: Grains
+  de: Braune Linsen
+  en: Brown lentil
+  unit: g
+cornstarch:
+  category: Grains
+  de: Maisstärke
+  en: Cornstarch
+  unit: g
+spinach:
+  category: Vegetables
+  de: Spinat
+  en: spinach
+  unit: g
+green_asparagus:
+  category: Vegetables
+  de: Grüner Spargel
+  en: Green asparagus
+  unit: g
+green_beans:
+  category: Vegetables
+  de: Grüne Bohne
+  en: Green bean
+  unit: g
+celery:
+  category: Vegetables
+  de: Sellerie
+  en: Celery
+  unit: g
+dried_shiitake_mushroom:
+  category: Vegetables
+  de: getrocknete Shiitake-Pilze
+  en: dried shiitake mushroom
+  unit: g
+fresh_spinach:
+  category: Vegetables
+  de: Frischer Spinat
+  en: Fresh spinach
+  unit: g
+baby_spinach:
+  category: Vegetables
+  de: Baby Spinat
+  en: baby spinach
+  unit: g
+low_fat_mozzarella:
+  category: Dairy
+  de: Mozzarella, fettarm
+  en: Low fat mozzarella
+  unit: g
+creme_fraiche:
+  category: Dairy
+  de: Crème fraîche
+  en: Crème fraîche
+  unit: g
+mascarpone:
+  category: Dairy
+  de: Mascarpone
+  en: Mascarpone
+  unit: g
+low_fat_creme_fraiche:
+  category: Dairy
+  de: Crème fraîche, fettarm
+  en: Low fat crème fraîche
+  unit: g
+cream_cheese:
+  category: Dairy
+  de: Frischkäse
+  en: Cream cheese
+  unit: g
+low_fat_cream_cheese:
+  category: Dairy
+  de: Frischkäse, fettarm
+  en: Low fat cream cheese
+  unit: g
+low_fat_ricotta:
+  category: Dairy
+  de: Ricotta, fettarm
+  en: Low fat ricotta
+  unit: g
+sour_cream:
+  category: Dairy
+  de: Saure Sahne
+  en: Sour creme
+  unit: g
+onion:
+  category: Vegetables
+  de: Zwiebel
+  en: Onion
+  unit: g
+spring_onion:
+  category: Vegetables
+  de: Frühlingszwiebel
+  en: Spring onion
+  unit: g
+scallion:
+  category: Vegetables
+  de: Frühlingszwiebel
+  en: Spring onion
+  unit: g
+green_onion:
+  category: Vegetables
+  de: Frühlingszwiebel
+  en: Spring onion
+  unit: g
+red_onion:
+  category: Vegetables
+  de: Rote Zwiebel
+  en: Red onion
+  unit: g
+garlic:
+  category: Vegetables
+  de: Knoblauchzehe
+  en: Garlic clove
+  unit: pc
+garlic_clove:
+  category: Vegetables
+  de: Knoblauchzehe
+  en: Garlic clove
+  unit: pc
+zucchini:
+  category: Vegetables
+  de: Zucchini
+  en: Zucchini
+  unit: g
+eggplant:
+  category: Vegetables
+  de: Zucchini
+  en: Zucchini
+  unit: g
+cherry_tomato:
+  category: Vegetables
+  de: Kirschtomate
+  en: Cherry tomato
+  unit: g
+tomato:
+  category: Vegetables
+  de: Tomate
+  en: Tomato
+  unit: g
+carrot:
+  category: Vegetables
+  de: Karotte
+  en: Carrot
+  unit: g
+broccoli:
+  category: Vegetables
+  de: Brokkoli
+  en: Broccoli
+  unit: g
+cauliflower:
+  category: Vegetables
+  de: Blumenkohl
+  en: Cauliflower
+  unit: g
+shallot:
+  category: Vegetables
+  de: Schalotte
+  en: Shallot
+  unit: g
+milk:
+  category: Dairy
+  de: Milch
+  en: Milk
+  unit: ml
+oat_milk:
+  category: Dairy
+  de: Mandeldrink
+  en: Oat milk
+  unit: ml
+low_fat_milk:
+  category: Dairy
+  de: Milch, fettarm
+  en: Low fat milk
+  unit: ml
+leek:
+  category: Vegetables
+  de: Lauch
+  en: Leek
+  unit: g
+iceberg_lettuce:
+  category: Vegetables
+  de: Eisbergsalat
+  en: Iceberg lettuce
+  unit: g
+romaine_lettuce:
+  category: Vegetables
+  de: Römersalat
+  en: Romaine lettuce
+  unit: g
+mixed_salad_greens:
+  category: Vegetables
+  de: Salat-Mix
+  en: Mixed salad greens
+  unit: g
+cucumber:
+  category: Vegetables
+  de: Gurke
+  en: Cucumber
+  unit: g
+pickle:
+  category: Vegetables
+  de: Eingelegte Gurke
+  en: Pickle
+  unit: g
+radish:
+  category: Vegetables
+  de: Radieschen
+  en: Radish
+  unit: g
+vegetable_broth:
+  category: Soups & Broths
+  de: Gemüsebrühe
+  en: Vegetable broth
+  unit: ml
+beef_broth:
+  category: Soups & Broths
+  de: Rinderbrühe
+  en: Beef broth
+  unit: ml
+low_sodium_chicken_broth:
+  category: Soups & Broths
+  de: Natriumarme Hühnerbrühe
+  en: Low sodium chicken broth
+  unit: ml
+tomato_paste:
+  category: Condiments & Sauces 
+  de: Tomatenmark
+  en: Tomato paste
+  unit: g
+ketchup:
+  category: Condiments & Sauces 
+  de: Ketchup
+  en: Ketchup
+  unit: g
+light_mayonnaise:
+  category: Condiments & Sauces 
+  de: Mayonnaise, leicht
+  en: Light mayonnaise
+  unit: g
+sweet_chili_sauce:
+  category: Condiments & Sauces 
+  de: Süße Chilisauce
+  en: Sweet chili sauce
+  unit: ml
+chili_sauce:
+  category: Condiments & Sauces 
+  de: Chilisauce
+  en: Chili sauce
+  unit: ml
+salsa:
+  category: Condiments & Sauces 
+  de: Salsasauce
+  en: Salsa sauce
+  unit: ml
+lemon_juice:
+  category: Condiments & Sauces 
+  de: Zitronensaft
+  en: Lemon juice
+  unit: ml
+lime_juice:
+  category: Condiments & Sauces 
+  de: Limettensaft
+  en: Lime juice
+  unit: ml
+soy_sauce:
+  category: Condiments & Sauces 
+  de: Sojasauce
+  en: soy sauce
+  unit: ml
+balsamic_vinegar:
+  category: Condiments & Sauces 
+  de: Balsamico-Essig
+  en: Balsamic vinegar
+  unit: ml
+white_wine_vinegar:
+  category: Condiments & Sauces 
+  de: Weisswein-Essig
+  en: White wine vinegar
+  unit: ml
+red_wine_vinegar:
+  category: Condiments & Sauces 
+  de: Rotwein-Essig
+  en: Red wine vinegar
+  unit: ml
+apple_cider_vinegar:
+  category: Condiments & Sauces 
+  de: Apfelwein-Essig
+  en: Apple cider vinegar
+  unit: ml
+whole_wheat_spaghetti:
+  category: Grains
+  de: Vollkornspaghetti
+  en: Whole wheat spaghetti
+  unit: g
+whole_grain_pasta:
+  category: Grains
+  de: Vollkornnudeln
+  en: Whole grain pasta
+  unit: g
+rice:
+  category: Grains
+  de: Reis
+  en: Rice
+  unit: g
+basmati_rice:
+  category: Grains
+  de: Basmati Reis
+  en: Basmati rice
+  unit: g
+wild_rice:
+  category: Grains
+  de: Wildreis
+  en: Wild rice
+  unit: g
+long_grain_rice:
+  category: Grains
+  de: Langkornreis
+  en: Long grain rice
+  unit: g
+quinoa:
+  category: Grains
+  de: Quinoa
+  en: Quinoa
+  unit: g
+wheat_flour:
+  category: Grains
+  de: Weizenmehl
+  en: Wheat flour
+  unit: g
+whole_wheat_flour:
+  category: Grains
+  de: Vollkornweizenmehl
+  en: Whole wheat flour
+  unit: g
+butter:
+  category: Fats & Oils
+  de: Butter
+  en: Butter
+  unit: g
+margarine:
+  category: Fats & Oils
+  de: Margarine
+  en: Margarine
+  unit: g
+diced_ham:
+  category: Meat & Poultry 
+  de: Schinkenwürfel
+  en: Diced ham
+  unit: g
+beef_stew_meat:
+  category: Meat & Poultry 
+  de: Gulaschfleisch vom Rind
+  en: Beef stew meat
+  unit: g
+pork_tenderloin:
+  category: Meat & Poultry 
+  de: Schweinefilet
+  en: Pork tenderloin
+  unit: g
+beef_chuck:
+  category: Meat & Poultry 
+  de: Rindernacken
+  en: Beef chuck
+  unit: g
+ground_beef:
+  category: Meat & Poultry 
+  de: Rinderhackfleisch
+  en: Ground beef
+  unit: g
+lean_ground_beef:
+  category: Meat & Poultry 
+  de: Rinderhackfleisch, fettarm
+  en: Lean ground beef
+  unit: g
+ground_turkey:
+  category: Meat & Poultry 
+  de: Putenhackfleisch
+  en: Ground turkey
+  unit: g
+beef:
+  category: Meat & Poultry 
+  de: Rindfleisch
+  en: Beef
+  unit: g
+ginger:
+  category: Vegetables
+  de: Ingwer
+  en: Ginger
+  unit: g
+fresh_ginger:
+  category: Vegetables
+  de: Frischer Ingwer
+  en: Fresh ginger
+  unit: g
+mushroom:
+  category: Vegetables
+  de: Pilz
+  en: Mushroom
+  unit: g
+button_mushroom:
+  category: Vegetables
+  de: Champignon
+  en: Button mushroom
+  unit: g
+potato:
+  category: Vegetables
+  de: Kartoffel
+  en: Potato
+  unit: g
+floury_potato:
+  category: Vegetables
+  de: Kartoffel, mehligkochend
+  en: Floury potato
+  unit: g
+kale:
+  category: Vegetables
+  de: Grünkohl
+  en: Kale
+  unit: g
+white_cabbage:
+  category: Vegetables
+  de: Weißkohl
+  en: White cabbage
+  unit: g
+sauerkraut:
+  category: Vegetables
+  de: Sauerkraut
+  en: Sauerkraut
+  unit: g
+red_cabbage:
+  category: Vegetables
+  de: Rotkohl
+  en: Red cabbage
+  unit: g
+sweet_potato:
+  category: Vegetables
+  de: Süßkartoffel
+  en: Sweet potato
+  unit: g
+short_grain_rice:
+  category: Grains
+  de: Rundkornreis
+  en: Short grain rice
+  unit: g
+gnocchi:
+  category: Grains
+  de: Gnocchi
+  en: Gnocchi
+  unit: g
+maple_syrup:
+  category: Sweets
+  de: Ahornsirup
+  en: Maple syrup
+  unit: ml
+honey:
+  category: Sweets
+  de: Honig
+  en: Honey
+  unit: g
+peanut_butter:
+  category: Nuts & Seeds
+  de: Erdnussbutter
+  en: Peanut butter
+  unit: g
+slivered_almonds:
+  category: Nuts & Seeds
+  de: Mandelstifte
+  en: Slivered almonds
+  unit: g
+almond_butter:
+  category: Nuts & Seeds
+  de: Mandelmus
+  en: Almond butter
+  unit: g
+plain_yogurt:
+  category: Dairy
+  de: Joghurt
+  en: yogurt
+  unit: g
+low_fat_yogurt:
+  category: Dairy
+  de: Joghurt, fettarm
+  en: Low fat yogurt
+  unit: g
+greek_yogurt:
+  category: Dairy
+  de: Griechischer Joghurt
+  en: Greek yogurt
+  unit: g
+soy_yogurt:
+  category: Dairy
+  de: Sojajoghurt
+  en: Soy yogurt
+  unit: g
+processed_cheese:
+  category: Dairy
+  de: Schmelzkäse
+  en: Processed cheese
+  unit: g
+cottage_cheese:
+  category: Dairy
+  de: Hüttenkäse
+  en: Cottage cheese
+  unit: g
+heavy_cream:
+  category: Dairy
+  de: Schlagsahne
+  en: Heavy cream
+  unit: ml
+vegan_cooking_cream:
+  category: Dairy
+  de: Kochcreme, vegan
+  en: Vegan cooking cream
+  unit: ml
+shrimp:
+  category: Fish & Seafood
+  de: Garnele
+  en: Shrimp
+  unit: g
+salmon_fillet:
+  category: Fish & Seafood
+  de: Lachsfilet
+  en: Salmon fillet
+  unit: g
+smoked_salmon:
+  category: Fish & Seafood
+  de: Lachs, geräuchert
+  en: Smoked salmon
+  unit: g

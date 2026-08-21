@@ -1,0 +1,42 @@
+prep_time: 20
+cook_time: 25
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 350
+  protein_g: 28
+  carbs_g: 38
+  fat_g: 7
+ingredients:
+  - slug: chicken_breast
+    amount: 600
+  - slug: onion
+    amount: 160
+  - slug: garlic_clove
+    amount: 6
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: carrot
+    amount: 150
+  - slug: zucchini
+    amount: 230
+  - slug: olive_oil
+    amount: 14
+  - slug: long_grain_rice
+    amount: 200
+  - slug: ajvar
+    amount: 100
+  - slug: tomato_paste
+    amount: 16
+  - slug: diced_tomatoes
+    amount: 200
+  - slug: vegetable_broth
+    amount: 500
+  - slug: paprika_powder
+    amount: 2
+  - slug: frozen_peas
+    amount: 100

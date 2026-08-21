@@ -1,0 +1,40 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 440
+  protein_g: 28
+  carbs_g: 32
+  fat_g: 20
+ingredients:
+  - slug: ground_beef
+    amount: 400
+  - slug: kidney_beans
+    amount: 200
+  - slug: carrot
+    amount: 600
+  - slug: tomato
+    amount: 480
+  - slug: onion
+    amount: 160
+  - slug: fresh_coriander
+    amount: 50
+  - slug: ginger
+    amount: 20
+  - slug: coconut_oil
+    amount: 15
+  - slug: chili_pepper
+    amount: 10
+  - slug: garlic_clove
+    amount: 6
+  - slug: water
+    amount: 400
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

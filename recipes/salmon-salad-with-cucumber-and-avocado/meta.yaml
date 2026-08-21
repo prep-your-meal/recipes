@@ -1,0 +1,34 @@
+prep_time: 15
+cook_time: 15
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+nutrition_per_portion:
+  calories: 550
+  protein_g: 34
+  carbs_g: 15
+  fat_g: 39
+ingredients:
+  - slug: salmon_fillet
+    amount: 300
+  - slug: mixed_salad_greens
+    amount: 250
+  - slug: cucumber
+    amount: 300
+  - slug: avocado
+    amount: 220
+  - slug: radish
+    amount: 54
+  - slug: olive_oil
+    amount: 14
+  - slug: lemon_juice
+    amount: 10
+  - slug: sesame_seed
+    amount: 5
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

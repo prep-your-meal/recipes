@@ -1,0 +1,36 @@
+prep_time: 15
+cook_time: 10
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+nutrition_per_portion:
+  calories: 440
+  protein_g: 41
+  carbs_g: 16
+  fat_g: 23
+ingredients:
+  - slug: olive_oil
+    amount: 7
+  - slug: lean_ground_beef
+    amount: 300
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: pickle
+    amount: 80
+  - slug: red_onion
+    amount: 80
+  - slug: iceberg_lettuce
+    amount: 300
+  - slug: light_mayonnaise
+    amount: 30
+  - slug: ketchup
+    amount: 40
+  - slug: paprika_powder
+    amount: 2
+  - slug: low_fat_shredded_cheese
+    amount: 60

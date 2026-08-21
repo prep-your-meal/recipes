@@ -1,0 +1,34 @@
+prep_time: 15
+cook_time: 10
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 440
+  protein_g: 12
+  carbs_g: 65
+  fat_g: 15
+ingredients:
+  - slug: macaroni
+    amount: 460
+  - slug: onion
+    amount: 80
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: carrot
+    amount: 300
+  - slug: avocado
+    amount: 440
+  - slug: lemon_juice
+    amount: 30
+  - slug: olive_oil
+    amount: 14
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1

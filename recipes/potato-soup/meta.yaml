@@ -1,0 +1,27 @@
+prep_time: 15
+cook_time: 15
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - quick
+nutrition_per_portion:
+  calories: 375
+  protein_g: 19
+  carbs_g: 56
+  fat_g: 9
+ingredients:
+  - slug: potato
+    amount: 500
+  - slug: low_fat_milk
+    amount: 480
+  - slug: spring_onion
+    amount: 40
+  - slug: bacon
+    amount: 16
+  - slug: grated_mozzarella
+    amount: 20
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1

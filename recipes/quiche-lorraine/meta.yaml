@@ -1,0 +1,35 @@
+prep_time: 25
+cook_time: 55
+default_portions: 12
+categories:
+  - lunch
+  - dinner
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 350
+  protein_g: 14
+  carbs_g: 18
+  fat_g: 24
+ingredients:
+  - slug: butter
+    amount: 140
+  - slug: wheat_flour
+    amount: 280
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: water
+    amount: 60
+  - slug: egg_yolk
+    amount: 4
+  - slug: gruyere_cheese
+    amount: 140
+  - slug: milk
+    amount: 250
+  - slug: egg
+    amount: 2
+  - slug: diced_ham
+    amount: 280
+  - slug: creme_fraiche
+    amount: 250

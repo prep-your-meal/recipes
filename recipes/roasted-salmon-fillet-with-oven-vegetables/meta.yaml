@@ -1,0 +1,40 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 450
+  protein_g: 35
+  carbs_g: 15
+  fat_g: 28
+ingredients:
+  - slug: zucchini
+    amount: 920
+  - slug: spring_onion
+    amount: 160
+  - slug: cherry_tomato
+    amount: 480
+  - slug: lemon_juice
+    amount: 120
+  - slug: olive_oil
+    amount: 28
+  - slug: salt
+    amount: 5
+  - slug: black_pepper
+    amount: 3
+  - slug: paprika_powder
+    amount: 5
+  - slug: chili_flakes
+    amount: 20
+  - slug: salmon_fillet
+    amount: 600
+  - slug: garlic_clove
+    amount: 12
+  - slug: fresh_dill
+    amount: 10
+  - slug: thyme
+    amount: 5

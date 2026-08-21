@@ -1,0 +1,36 @@
+prep_time: 20
+cook_time: 0
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - snack
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 190
+  protein_g: 5
+  carbs_g: 27
+  fat_g: 8
+ingredients:
+  - slug: white_cabbage
+    amount: 300
+  - slug: red_cabbage
+    amount: 150
+  - slug: carrot
+    amount: 150
+  - slug: garlic_clove
+    amount: 3
+  - slug: plain_yogurt
+    amount: 60
+  - slug: olive_oil
+    amount: 14
+  - slug: apple_cider_vinegar
+    amount: 16
+  - slug: maple_syrup
+    amount: 10
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

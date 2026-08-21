@@ -1,0 +1,32 @@
+prep_time: 15
+cook_time: 35
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 415
+  protein_g: 33
+  carbs_g: 17
+  fat_g: 24
+ingredients:
+  - slug: olive_oil
+    amount: 14
+  - slug: ground_beef
+    amount: 500
+  - slug: garlic_clove
+    amount: 1
+  - slug: strained_tomatoes
+    amount: 470
+  - slug: cottage_cheese
+    amount: 330
+  - slug: parmesan_cheese
+    amount: 20
+  - slug: lasagna_sheets
+    amount: 105
+  - slug: mozzarella
+    amount: 150
+  - slug: italian_herb_mix
+    amount: 2

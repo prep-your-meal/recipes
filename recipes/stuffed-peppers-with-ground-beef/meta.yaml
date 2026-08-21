@@ -1,0 +1,40 @@
+prep_time: 20
+cook_time: 30
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 415
+  protein_g: 31
+  carbs_g: 20
+  fat_g: 21
+ingredients:
+  - slug: bell_pepper
+    amount: 600
+  - slug: onion
+    amount: 40
+  - slug: tomato
+    amount: 120
+  - slug: ground_beef
+    amount: 500
+  - slug: chili_powder
+    amount: 2
+  - slug: garlic_powder
+    amount: 2
+  - slug: ground_cumin
+    amount: 2
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 2
+  - slug: salsa
+    amount: 250
+  - slug: parmesan_cheese
+    amount: 25
+  - slug: canned_black_beans
+    amount: 80
+  - slug: canned_corn
+    amount: 80

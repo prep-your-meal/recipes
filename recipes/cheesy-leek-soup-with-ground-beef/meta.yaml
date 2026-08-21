@@ -1,0 +1,27 @@
+prep_time: 15
+cook_time: 20
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 525
+  protein_g: 40
+  carbs_g: 9
+  fat_g: 36
+ingredients:
+  - slug: spring_onion
+    amount: 40
+  - slug: olive_oil
+    amount: 7
+  - slug: ground_beef
+    amount: 250
+  - slug: leek
+    amount: 150
+  - slug: vegetable_broth
+    amount: 400
+  - slug: processed_cheese
+    amount: 150

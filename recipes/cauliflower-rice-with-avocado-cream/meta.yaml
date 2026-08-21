@@ -1,0 +1,32 @@
+prep_time: 15
+cook_time: 0
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 205
+  protein_g: 7
+  carbs_g: 18
+  fat_g: 12
+ingredients:
+  - slug: cauliflower
+    amount: 1000
+  - slug: spring_onion
+    amount: 80
+  - slug: fresh_parsley
+    amount: 15
+  - slug: avocado
+    amount: 440
+  - slug: lime_juice
+    amount: 134
+  - slug: salt
+    amount: 2
+  - slug: ground_turmeric
+    amount: 1
+  - slug: fresh_basil
+    amount: 10

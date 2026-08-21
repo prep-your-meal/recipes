@@ -1,0 +1,31 @@
+prep_time: 15
+cook_time: 15
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 640
+  protein_g: 22
+  carbs_g: 95
+  fat_g: 18
+ingredients:
+  - slug: mushroom
+    amount: 250
+  - slug: broccoli
+    amount: 340
+  - slug: fresh_spinach
+    amount: 100
+  - slug: whole_grain_pasta
+    amount: 500
+  - slug: vegetable_broth
+    amount: 1000
+  - slug: heavy_cream
+    amount: 200
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

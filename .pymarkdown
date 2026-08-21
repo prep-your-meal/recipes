@@ -1,16 +1,18 @@
 {
-    "plugins": {
-        "MD013": {
-            "enabled": false
-        },
-        "MD041": {
-            "enabled": false
-        },
-        "MD032": {
-            "enabled": false
-        },
-        "MD007": {
-            "enabled": false
-        }
+  "extensions": {
+    "front-matter": {
+      "enabled": true
     }
+  },
+  "plugins": {
+    "line-length": {
+      "enabled": false
+    },
+    "heading-style": {
+      "style": "atx"
+    },
+    "MD041": {
+      "enabled": false
+    }
+  }
 }

@@ -1,0 +1,38 @@
+prep_time: 20
+cook_time: 40
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 290
+  protein_g: 11
+  carbs_g: 51
+  fat_g: 6
+ingredients:
+  - slug: potato
+    amount: 900
+  - slug: salt
+    amount: 5
+  - slug: shallot
+    amount: 60
+  - slug: button_mushroom
+    amount: 450
+  - slug: carrot
+    amount: 750
+  - slug: olive_oil
+    amount: 14
+  - slug: tomato_paste
+    amount: 32
+  - slug: vegetable_broth
+    amount: 275
+  - slug: greek_yogurt
+    amount: 150
+  - slug: green_pea
+    amount: 300
+  - slug: wheat_flour
+    amount: 20
+  - slug: dried_rosemary
+    amount: 2

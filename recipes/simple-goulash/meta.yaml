@@ -1,0 +1,26 @@
+prep_time: 20
+cook_time: 95
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 550
+  protein_g: 55
+  carbs_g: 33
+  fat_g: 22
+ingredients:
+  - slug: beef_stew_meat
+    amount: 1000
+  - slug: onion
+    amount: 80
+  - slug: rapeseed_oil
+    amount: 27
+  - slug: water
+    amount: 2000
+  - slug: tomato_paste
+    amount: 18
+  - slug: potato
+    amount: 720

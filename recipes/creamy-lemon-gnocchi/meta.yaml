@@ -1,0 +1,28 @@
+prep_time: 10
+cook_time: 10
+default_portions: 3
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 570
+  protein_g: 14
+  carbs_g: 69
+  fat_g: 26
+ingredients:
+  - slug: gnocchi
+    amount: 600
+  - slug: pine_nut
+    amount: 30
+  - slug: lemon
+    amount: 60
+  - slug: low_fat_creme_fraiche
+    amount: 300
+  - slug: parmesan_cheese
+    amount: 30
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

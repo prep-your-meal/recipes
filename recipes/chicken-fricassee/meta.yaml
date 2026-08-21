@@ -1,0 +1,34 @@
+prep_time: 15
+cook_time: 25
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 500
+  protein_g: 40
+  carbs_g: 74
+  fat_g: 5
+ingredients:
+  - slug: long_grain_rice
+    amount: 250
+  - slug: onion
+    amount: 160
+  - slug: carrot
+    amount: 300
+  - slug: vegetable_broth
+    amount: 700
+  - slug: chicken_breast
+    amount: 500
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: canned_peas
+    amount: 280
+  - slug: milk
+    amount: 200
+  - slug: cornstarch
+    amount: 18

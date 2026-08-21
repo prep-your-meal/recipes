@@ -27,7 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Recipe Data Validator
-        run: python .github/scripts/validate_recipes.py
+        run: python scripts/validate_recipes.py
 
       - name: Run Markdown Linter
         run: pymarkdown scan "recipes/**/*md"

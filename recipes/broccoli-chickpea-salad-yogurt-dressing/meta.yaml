@@ -1,0 +1,36 @@
+prep_time: 15
+cook_time: 5
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - snack
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 130
+  protein_g: 10
+  carbs_g: 18
+  fat_g: 3
+ingredients:
+  - slug: low_fat_yogurt
+    amount: 180
+  - slug: low_fat_feta
+    amount: 70
+  - slug: lime_juice
+    amount: 30
+  - slug: garlic_clove
+    amount: 3
+  - slug: broccoli
+    amount: 230
+  - slug: red_bell_pepper
+    amount: 120
+  - slug: canned_chickpeas
+    amount: 400
+  - slug: fresh_dill
+    amount: 3
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

@@ -1,0 +1,36 @@
+prep_time: 20
+cook_time: 30
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 300
+  protein_g: 15
+  carbs_g: 46
+  fat_g: 8
+ingredients:
+  - slug: potato
+    amount: 1000
+  - slug: broccoli
+    amount: 1000
+  - slug: vegetable_broth
+    amount: 400
+  - slug: low_fat_cream_cheese
+    amount: 150
+  - slug: wheat_flour
+    amount: 20
+  - slug: low_fat_milk
+    amount: 100
+  - slug: fresh_chives
+    amount: 5
+  - slug: curry_powder
+    amount: 2
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: cheddar_cheese
+    amount: 100

@@ -1,0 +1,38 @@
+prep_time: 15
+cook_time: 15
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 450
+  protein_g: 14
+  carbs_g: 54
+  fat_g: 20
+ingredients:
+  - slug: pearl_couscous
+    amount: 200
+  - slug: cherry_tomato
+    amount: 300
+  - slug: cucumber
+    amount: 150
+  - slug: olive_oil
+    amount: 54
+  - slug: canned_chickpeas
+    amount: 300
+  - slug: red_wine_vinegar
+    amount: 48
+  - slug: paprika_powder
+    amount: 1
+  - slug: lemon
+    amount: 40
+  - slug: fresh_mint
+    amount: 5
+  - slug: fresh_basil
+    amount: 5
+  - slug: pine_nut
+    amount: 30

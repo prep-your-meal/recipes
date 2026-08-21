@@ -1,0 +1,34 @@
+prep_time: 15
+cook_time: 15
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 555
+  protein_g: 45
+  carbs_g: 44
+  fat_g: 21
+ingredients:
+  - slug: chicken_breast
+    amount: 600
+  - slug: quinoa
+    amount: 200
+  - slug: vegetable_broth
+    amount: 400
+  - slug: tomato
+    amount: 480
+  - slug: spring_onion
+    amount: 240
+  - slug: olive_oil
+    amount: 56
+  - slug: cucumber
+    amount: 600
+  - slug: fresh_parsley
+    amount: 100
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1

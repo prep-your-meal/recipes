@@ -1,0 +1,32 @@
+prep_time: 10
+cook_time: 12
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - vegetarian
+  - quick
+nutrition_per_portion:
+  calories: 505
+  protein_g: 22
+  carbs_g: 74
+  fat_g: 13
+ingredients:
+  - slug: fusilli_pasta
+    amount: 200
+  - slug: tomato_passata
+    amount: 120
+  - slug: cottage_cheese
+    amount: 120
+  - slug: parmesan
+    amount: 10
+  - slug: olive_oil
+    amount: 14
+  - slug: chili_flakes
+    amount: 4
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1
+  - slug: fresh_parsley
+    amount: 5

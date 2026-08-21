@@ -1,0 +1,34 @@
+prep_time: 15
+cook_time: 30
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 495
+  protein_g: 39
+  carbs_g: 56
+  fat_g: 10
+ingredients:
+  - slug: water
+    amount: 600
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: red_lentil
+    amount: 200
+  - slug: chicken_breast
+    amount: 400
+  - slug: red_bell_pepper
+    amount: 600
+  - slug: curry_powder
+    amount: 5
+  - slug: paprika_powder
+    amount: 5
+  - slug: coconut_oil
+    amount: 30
+  - slug: brown_rice
+    amount: 120

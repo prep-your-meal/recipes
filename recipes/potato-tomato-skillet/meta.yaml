@@ -1,0 +1,31 @@
+prep_time: 15
+cook_time: 25
+default_portions: 1
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 380
+  protein_g: 14
+  carbs_g: 65
+  fat_g: 9
+ingredients:
+  - slug: potato
+    amount: 250
+  - slug: red_bell_pepper
+    amount: 150
+  - slug: garlic
+    amount: 3
+  - slug: mushroom
+    amount: 150
+  - slug: olive_oil
+    amount: 7
+  - slug: diced_tomatoes
+    amount: 250
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

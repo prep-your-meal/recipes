@@ -1,0 +1,38 @@
+prep_time: 25
+cook_time: 65
+default_portions: 6
+categories:
+  - lunch
+  - dinner
+  - high-protein
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 565
+  protein_g: 50
+  carbs_g: 8
+  fat_g: 33
+ingredients:
+  - slug: salt
+    amount: 5
+  - slug: olive_oil
+    amount: 14
+  - slug: onion
+    amount: 40
+  - slug: garlic_clove
+    amount: 9
+  - slug: strained_tomatoes
+    amount: 500
+  - slug: black_pepper
+    amount: 2
+  - slug: zucchini
+    amount: 690
+  - slug: low_fat_ricotta
+    amount: 350
+  - slug: egg
+    amount: 1
+  - slug: lean_ground_beef
+    amount: 750
+  - slug: shredded_mozzarella_cheese
+    amount: 450
+  - slug: fresh_basil
+    amount: 5

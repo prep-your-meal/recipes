@@ -25,6 +25,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+imports/*
+!imports/.gitignore
+
 # --- Virtual Environments ---
 .venv/
 *env*

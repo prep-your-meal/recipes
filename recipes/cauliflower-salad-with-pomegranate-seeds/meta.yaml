@@ -1,0 +1,42 @@
+prep_time: 15
+cook_time: 5
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 385
+  protein_g: 10
+  carbs_g: 30
+  fat_g: 28
+ingredients:
+  - slug: cauliflower
+    amount: 500
+  - slug: pomegranate_seeds
+    amount: 150
+  - slug: slivered_almonds
+    amount: 16
+  - slug: fresh_mint
+    amount: 5
+  - slug: lemon
+    amount: 40
+  - slug: olive_oil
+    amount: 41
+  - slug: water
+    amount: 30
+  - slug: almond_butter
+    amount: 20
+  - slug: ras_el_hanout
+    amount: 2
+  - slug: ground_turmeric
+    amount: 1
+  - slug: ground_ginger
+    amount: 1
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1

@@ -1,0 +1,44 @@
+prep_time: 15
+cook_time: 20
+default_portions: 4
+categories:
+  - lunch
+  - dinner
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 545
+  protein_g: 19
+  carbs_g: 8
+  fat_g: 47
+ingredients:
+  - slug: onion
+    amount: 80
+  - slug: olive_oil
+    amount: 14
+  - slug: ground_beef
+    amount: 250
+  - slug: salami
+    amount: 60
+  - slug: button_mushroom
+    amount: 100
+  - slug: vegetable_broth
+    amount: 250
+  - slug: strained_tomatoes
+    amount: 300
+  - slug: mascarpone
+    amount: 100
+  - slug: creme_fraiche
+    amount: 15
+  - slug: parmesan_cheese
+    amount: 20
+  - slug: heavy_cream
+    amount: 200
+  - slug: red_bell_pepper
+    amount: 75
+  - slug: dried_oregano
+    amount: 2
+  - slug: salt
+    amount: 2
+  - slug: black_pepper
+    amount: 1

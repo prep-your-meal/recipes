@@ -1,0 +1,44 @@
+prep_time: 15
+cook_time: 20
+default_portions: 2
+categories:
+  - lunch
+  - dinner
+  - vegan
+  - vegetarian
+  - quick
+  - meal-prep-friendly
+nutrition_per_portion:
+  calories: 240
+  protein_g: 5
+  carbs_g: 18
+  fat_g: 14
+ingredients:
+  - slug: onion
+    amount: 80
+  - slug: garlic_clove
+    amount: 2
+  - slug: zucchini
+    amount: 200
+  - slug: eggplant
+    amount: 250
+  - slug: olive_oil
+    amount: 27
+  - slug: vegetable_broth
+    amount: 60
+  - slug: paprika_powder
+    amount: 1
+  - slug: salt
+    amount: 1
+  - slug: black_pepper
+    amount: 1
+  - slug: oregano
+    amount: 1
+  - slug: tomato_paste
+    amount: 8
+  - slug: balsamic_vinegar
+    amount: 8
+  - slug: cherry_tomato
+    amount: 300
+  - slug: red_bell_pepper
+    amount: 150
