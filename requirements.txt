@@ -1,5 +1,5 @@
 pyyaml>=6.0.3
 pymarkdownlnt>=0.9.39
 pillow>=12.3.0
-python-dotenv>=1.2.2
+python-dotenv>=1.2.3
 google-genai>=2.20.0
